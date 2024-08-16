@@ -1,0 +1,44 @@
+.card {
+  border: 1px solid #c9c5c5f1;
+  border-radius: 10px;
+  max-width: 200px;
+  text-align: center;
+  box-shadow: 5px 5px 5px #aca9a985;
+  margin: 20px;
+  cursor: pointer;
+  background-color: rgba(186, 210, 190, 0.985);
+  padding: 15px;
+  display:inline-block;
+}
+
+.card .card-image {
+max-width: 50%;
+border-radius: 40%;
+max-height: auto;
+margin: 10px;
+}
+
+.card .card-title {
+  font-size: 1.1em;
+  color: rgba(37, 36, 36, 0.8);
+  font-family: Arial, Helvetica, sans-serif;
+  /* text-shadow: 2px 2px 2px rgb(112, 111, 111); */
+  margin: 0%;
+}
+
+.card .card-subtitle {
+  font-size: 1.2em;
+  color: rgba(46, 44, 44, 0.877);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card .card-subtitle:hover {
+ transform: scale(1);
+ 
+}
+
+.card .card-details {
+  font-size: 0.9em;
+  color: rgba(37, 37, 37, 0.877);
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
